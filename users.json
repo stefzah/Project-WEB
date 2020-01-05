@@ -1,0 +1,71 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "stefanzah",
+      "password": "marcela",
+      "nickname": "stefzah",
+      "photo": "stefan.png",
+      "fallowers": {
+        "nr": 2,
+        "id": [
+          1,
+          2
+        ]
+      },
+      "fallowing": {
+        "nr": 2,
+        "id": [
+          1,
+          2
+        ]
+      },
+      "posts": [
+        {
+          "id": 0,
+          "title": "Vand Golf 4",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/f/f7/VW_Golf_IV_front_20071205.jpg",
+          "likes": 10
+        },
+        {
+          "id": 1,
+          "title": "Vad facultatea de aici",
+          "img": "tesla.jpg",
+          "likes": 0
+        },
+        {
+          "id": 2,
+          "title": "Am dat la schimb Loganul",
+          "img": "Lamborghini_Sian.jpg",
+          "likes": 0
+        },
+        {
+          "id": 3,
+          "title": "affasfa",
+          "img": "circuit.png",
+          "likes": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "username": "mgherasim",
+      "password": "miata",
+      "nickname": "Mih97",
+      "photo": "user-profile.png",
+      "fallowers": {
+        "nr": 0,
+        "id": []
+      },
+      "fallowing": {
+        "nr": 0,
+        "id": []
+      },
+      "posts": []
+    }
+  ],
+  "user": {
+    "val_id": 0,
+    "loged": 0
+  }
+}

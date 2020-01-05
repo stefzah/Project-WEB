@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="side-menu.css">
+    <link rel="stylesheet" href=login-box.css>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+            <div class="side-menu-button" onclick="openNav()">
+                <i class="fa fa-bars"></i>
+            </div>
+            <img class="logo" src="garaj-logo-white.png" onclick="location='home.html'"></img>
+            <div class="login-button" id="login-button">Login</div>
+        </header>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa fa-times-circle"></i></a>
+        <a href="home.html" id="home-btn"><i  class="fa fa-home"></i>Home</a>
+        <a id="profile-btn"><i  class="fa fa-user-circle"></i>My Profile</a>
+        <a><i class="fa fa-newspaper-o"></i>My Feed</a>
+        <a><i class="fa fa-info-circle"></i>About Us</a>
+    </div>
+
+    <div class="login-box">
+        <div class="input-box">Username: <input id="username" class="input" type="text"></input></div>
+        <div class="input-box">Nickname: <input id="nickname" class="input" type="text"></input></div>
+        <div class="input-box">Password: <input id="password" class="input" type="password"></input></div>
+        <div class="input-box">Confirm password: <input id="conf-password" class="input" type="password"></input></div>
+        <div id="confirm-button" class="confirm-button">Confirm</div>
+        <div class="input-box-register">Already have an accout? Login <a href="login.html">here</a></div>
+    </div>
+
+    <script src="side-menu.js"></script>
+    <script src="init.js"></script>
+    <script src="log_dis.js"></script>
+    <script src="check-register.js"></script>
+</body>
+
+
+
+</html>

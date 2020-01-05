@@ -1,0 +1,46 @@
+.login-box{
+    background-color:slategray;
+    max-width: 500px;
+    margin: 150px auto;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black; 
+    top: 50%;   
+    display: flex;
+    flex-direction: column;
+}
+.input-box{
+    color:white;
+    font-family: Arial;
+    font-size: 30px;
+    margin: 20px;
+}
+.input-box-register{
+    color:white;
+    font-family: Arial;
+    font-size: 27px;
+    margin: 20px auto;
+}
+.input{
+    background-color: gray;
+    height:auto;
+    width: 100%;
+    font-size: 30px;
+}
+.confirm-button{
+    padding:5px;
+    margin: auto;
+    color:white;
+    font-size: 30px;
+    border:white;
+    border-radius: 10px;
+    border-style: solid;
+    background-color:black; 
+    cursor: pointer;
+}
+@media screen and (max-height: 700px) {
+    .input-box {font-size: 20px;}
+    .input {font-size: 20px;}
+    .input-box-register {font-size: 18px;}
+    .confirm-button {font-size: 20px;}
+  }
